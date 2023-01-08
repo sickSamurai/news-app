@@ -1,0 +1,13 @@
+<div class="card text-bg-primary">
+  <div class="card-header">
+    <h5>{{ newsItem.title }}</h5>
+  </div>
+  <img class="card-img-top" [src]="newsItem.urlToImage" />
+  <div card="card-body">
+    <div class="vbox">
+      <span class="badge bg-secondary">{{ newsItem.source.name }}</span>
+      <p>{{ newsItem.description }}</p>
+      <a [href]="newsItem.url" class="btn btn-secondary">Ver Noticia</a>
+    </div>
+  </div>
+</div>

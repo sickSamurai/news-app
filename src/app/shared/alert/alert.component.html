@@ -1,0 +1,4 @@
+<div *ngIf="isOpen" class="alert alert-dismissible alert-danger">
+  <button (click)="onClose.emit()" type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  <strong>{{ message }}</strong>
+</div>

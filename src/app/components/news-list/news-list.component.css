@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: masonry;
+  grid-auto-flow: dense;
+  break-inside: avoid;
+  gap: 16px;
+  width: 80vw;
+}

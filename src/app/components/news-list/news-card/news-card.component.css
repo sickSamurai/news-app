@@ -1,0 +1,17 @@
+p {
+  padding: 8px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.vbox {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-size: small;
+  align-self: flex-end;
+}

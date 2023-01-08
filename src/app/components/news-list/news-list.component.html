@@ -1,0 +1,3 @@
+<div *ngIf="newsExists()" class="grid">
+  <news-card *ngFor="let newsItem of news" [newsItem]="newsItem"></news-card>
+</div>
